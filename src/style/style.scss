@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    cursor: pointer;
+}
+.app{
+    display: flex;
+}
+
+.navv{
+    padding: 30px 24px;
+    background: rgba(91, 92, 226, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 97px;
+    height: 100vh;
+    gap: 40px;
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        padding-right: 30px;
+        gap: 5px;
+        li{
+            padding: 15px;
+            background: rgba(108, 109, 229, 1);
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    }
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    width: 100%;
+    height: 80px;
+    nav{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        h3{
+            font-family: Mulish;
+            font-size: 18px;
+            font-weight: 800;
+            line-height: 22.59px;
+            text-align: left;            
+        }
+        p{
+            font-family: Mulish;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 21px;
+            text-align: left;
+            color: #B5B5C3;            
+        }
+    }
+}
+
+main{
+    width: 1820px;
+    height: 91.5vh;
+    background-color: #EEEEF5;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px 40px 65px 40px;
+    .btn-tovar{
+        font-family: Mulish;
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 10.08px;
+        text-align: left;
+        padding: 15px 20px;    
+        background-color: #555555;  
+        color: white;  
+        outline: none;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-top: 35px;
+    }
+}
+
+.allProducts{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    padding: 40px 30px;
+    overflow: auto;
+    .all-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+        overflow: auto;
+        h3{
+            font-family: Mulish;
+            font-size: 16px;
+            font-weight: 800;
+            line-height: 11.52px;
+            text-align: left;                
+        }
+        input{
+            width: 250px;
+            height: 45px;
+            padding: 0 20px;
+            border: none;
+            background-color: #F7F7FF;
+            font-family: Mulish;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 21px;
+            text-align: left;
+            border-radius: 12px;
+            outline: none;
+        }
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin: 50px;
+        .top{
+            display: flex;
+            width: 100%;
+            div{
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                label{
+                    font-family: Mulish;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 10.8px;
+                    text-align: left;                    
+                }
+                input{
+                    width: 800px;
+                    height: 44px;
+                    border-radius: 6px;   
+                    outline: none;     
+                    background-color: #F6F6FB;  
+                    padding: 0 20px;  
+                    border: 1px solid #F6F6FB; 
+                }
+            }
+        }
+        .center{
+            display: flex;
+            gap: 40px;
+            width: 100%;
+            div{
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                label{
+                    font-family: Mulish;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 10.8px;
+                    text-align: left;                    
+                }
+                input{
+                    width: 380px;
+                    height: 44px;
+                    border-radius: 6px;   
+                    outline: none;     
+                    border: none; 
+                    background-color: #F6F6FB;  
+                    padding: 0 20px;
+                }
+            }
+        }
+        .bottom{
+            display: flex;
+            gap: 40px;
+            width: 100%;
+            div{
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                label{
+                    font-family: Mulish;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 10.8px;
+                    text-align: left;                    
+                }
+                input{
+                    width: 380px;
+                    height: 44px;
+                    border-radius: 6px;   
+                    outline: none;
+                    border: none;
+                    background-color: #F6F6FB;  
+                    padding: 0 20px;
+                }
+            }
+        }
+    }
+    .btn-tovar{
+        padding: 15px 20px;  
+        width: 140px; 
+        text-align: center;
+        background-color: #1BC58D;
+    }
+}

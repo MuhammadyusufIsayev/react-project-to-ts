@@ -1,0 +1,20 @@
+{
+  "products": [
+    {
+      "id": "7a3f",
+      "title": "salom",
+      "brand": "Nikeee",
+      "article": "1234",
+      "price": 1200,
+      "disCount": 11000
+    },
+    {
+      "id": "aa72",
+      "title": "bcbcxb",
+      "brand": "rgreg",
+      "article": "1324234",
+      "price": 11242412,
+      "disCount": 21342
+    }
+  ]
+}
